@@ -45,7 +45,7 @@ module Players
             if @@white_peg < 0
                 @@white_peg = 0
             end
-            #SOMETHING WRONG HERE. IF THERE IS 3 OF SAME COLOR THAN WHITE PEGS ARE MESSED UP
+            #correct
         end    
         puts "Red peg: #{@@red_peg} White Peg: #{@@white_peg}"
     end 
